@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A5F97DD3FA8FC22E41B860F /* Pods_XamarinUITestPocUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CAAE4336560C21EB038ABD /* Pods_XamarinUITestPocUITests.framework */; };
+		55682AC02FCEF364D5846D13 /* Pods_XamarinUITestPoc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32A1F2B1A14F3201AD1E3AB /* Pods_XamarinUITestPoc.framework */; };
 		EB966CBE1E9CF040008F4F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB966CBD1E9CF040008F4F22 /* AppDelegate.swift */; };
 		EB966CC01E9CF040008F4F22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB966CBF1E9CF040008F4F22 /* ViewController.swift */; };
 		EB966CC51E9CF040008F4F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB966CC41E9CF040008F4F22 /* Assets.xcassets */; };
 		EB966CC81E9CF040008F4F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB966CC61E9CF040008F4F22 /* LaunchScreen.storyboard */; };
 		EB966CD31E9CF040008F4F22 /* XamarinUITestPocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB966CD21E9CF040008F4F22 /* XamarinUITestPocTests.swift */; };
 		EB966CDE1E9CF040008F4F22 /* XamarinUITestPocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB966CDD1E9CF040008F4F22 /* XamarinUITestPocUITests.swift */; };
+		FC8046273980C68E12708DF1 /* Pods_XamarinUITestPocTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74452E284640D7E151263C8 /* Pods_XamarinUITestPocTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54097D933634EBF02EA41ECC /* Pods-XamarinUITestPoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XamarinUITestPoc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XamarinUITestPoc/Pods-XamarinUITestPoc.debug.xcconfig"; sourceTree = "<group>"; };
+		7C9AD1CE721632835FBED099 /* Pods-XamarinUITestPocUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XamarinUITestPocUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XamarinUITestPocUITests/Pods-XamarinUITestPocUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86CAAE4336560C21EB038ABD /* Pods_XamarinUITestPocUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XamarinUITestPocUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15B7A620C346025D299E038 /* Pods-XamarinUITestPoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XamarinUITestPoc.release.xcconfig"; path = "Pods/Target Support Files/Pods-XamarinUITestPoc/Pods-XamarinUITestPoc.release.xcconfig"; sourceTree = "<group>"; };
+		B74452E284640D7E151263C8 /* Pods_XamarinUITestPocTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XamarinUITestPocTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8BD04043D496EE9CC4D681 /* Pods-XamarinUITestPocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XamarinUITestPocTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XamarinUITestPocTests/Pods-XamarinUITestPocTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D47CEE7FC4E5D6C0999D7781 /* Pods-XamarinUITestPocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XamarinUITestPocTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XamarinUITestPocTests/Pods-XamarinUITestPocTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9C1FA8E95D525FFB2ED4550 /* Pods-XamarinUITestPocUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XamarinUITestPocUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XamarinUITestPocUITests/Pods-XamarinUITestPocUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E32A1F2B1A14F3201AD1E3AB /* Pods_XamarinUITestPoc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XamarinUITestPoc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB966CBA1E9CF040008F4F22 /* XamarinUITestPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XamarinUITestPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB966CBD1E9CF040008F4F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB966CBF1E9CF040008F4F22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55682AC02FCEF364D5846D13 /* Pods_XamarinUITestPoc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8046273980C68E12708DF1 /* Pods_XamarinUITestPocTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +80,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5F97DD3FA8FC22E41B860F /* Pods_XamarinUITestPocUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A12621682E86E61C36CF8BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54097D933634EBF02EA41ECC /* Pods-XamarinUITestPoc.debug.xcconfig */,
+				A15B7A620C346025D299E038 /* Pods-XamarinUITestPoc.release.xcconfig */,
+				BA8BD04043D496EE9CC4D681 /* Pods-XamarinUITestPocTests.debug.xcconfig */,
+				D47CEE7FC4E5D6C0999D7781 /* Pods-XamarinUITestPocTests.release.xcconfig */,
+				7C9AD1CE721632835FBED099 /* Pods-XamarinUITestPocUITests.debug.xcconfig */,
+				D9C1FA8E95D525FFB2ED4550 /* Pods-XamarinUITestPocUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB966CB11E9CF040008F4F22 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +107,8 @@
 				EB966CD11E9CF040008F4F22 /* XamarinUITestPocTests */,
 				EB966CDC1E9CF040008F4F22 /* XamarinUITestPocUITests */,
 				EB966CBB1E9CF040008F4F22 /* Products */,
+				3A12621682E86E61C36CF8BA /* Pods */,
+				F4A39712BC169AA5FFB71FB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +152,16 @@
 			path = XamarinUITestPocUITests;
 			sourceTree = "<group>";
 		};
+		F4A39712BC169AA5FFB71FB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E32A1F2B1A14F3201AD1E3AB /* Pods_XamarinUITestPoc.framework */,
+				B74452E284640D7E151263C8 /* Pods_XamarinUITestPocTests.framework */,
+				86CAAE4336560C21EB038ABD /* Pods_XamarinUITestPocUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB966CE21E9CF040008F4F22 /* Build configuration list for PBXNativeTarget "XamarinUITestPoc" */;
 			buildPhases = (
+				ED151A195D50C6E70626522D /* [CP] Check Pods Manifest.lock */,
 				EB966CB61E9CF040008F4F22 /* Sources */,
 				EB966CB71E9CF040008F4F22 /* Frameworks */,
 				EB966CB81E9CF040008F4F22 /* Resources */,
+				B59F59F0D51D8322FB862561 /* [CP] Embed Pods Frameworks */,
+				4229B7F652AD37135F0D2F65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB966CE51E9CF040008F4F22 /* Build configuration list for PBXNativeTarget "XamarinUITestPocTests" */;
 			buildPhases = (
+				2A18DB297AE2FB9316BF405A /* [CP] Check Pods Manifest.lock */,
 				EB966CCA1E9CF040008F4F22 /* Sources */,
 				EB966CCB1E9CF040008F4F22 /* Frameworks */,
 				EB966CCC1E9CF040008F4F22 /* Resources */,
+				75D5278C32D7E12357D2381E /* [CP] Embed Pods Frameworks */,
+				FB2244ED2C2F935F2D8971F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB966CE81E9CF040008F4F22 /* Build configuration list for PBXNativeTarget "XamarinUITestPocUITests" */;
 			buildPhases = (
+				FE2A0413CCF2BB866ED21323 /* [CP] Check Pods Manifest.lock */,
 				EB966CD51E9CF040008F4F22 /* Sources */,
 				EB966CD61E9CF040008F4F22 /* Frameworks */,
 				EB966CD71E9CF040008F4F22 /* Resources */,
+				2C873204CB95C58EC27D49C6 /* [CP] Embed Pods Frameworks */,
+				2E8BD811A3E0E273657BF976 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +298,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A18DB297AE2FB9316BF405A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C873204CB95C58EC27D49C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XamarinUITestPocUITests/Pods-XamarinUITestPocUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E8BD811A3E0E273657BF976 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XamarinUITestPocUITests/Pods-XamarinUITestPocUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4229B7F652AD37135F0D2F65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XamarinUITestPoc/Pods-XamarinUITestPoc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75D5278C32D7E12357D2381E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XamarinUITestPocTests/Pods-XamarinUITestPocTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B59F59F0D51D8322FB862561 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XamarinUITestPoc/Pods-XamarinUITestPoc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED151A195D50C6E70626522D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2244ED2C2F935F2D8971F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XamarinUITestPocTests/Pods-XamarinUITestPocTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2A0413CCF2BB866ED21323 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB966CB61E9CF040008F4F22 /* Sources */ = {
@@ -396,6 +583,7 @@
 		};
 		EB966CE31E9CF040008F4F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54097D933634EBF02EA41ECC /* Pods-XamarinUITestPoc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XamarinUITestPoc/Info.plist;
@@ -408,6 +596,7 @@
 		};
 		EB966CE41E9CF040008F4F22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15B7A620C346025D299E038 /* Pods-XamarinUITestPoc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XamarinUITestPoc/Info.plist;
@@ -420,6 +609,7 @@
 		};
 		EB966CE61E9CF040008F4F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8BD04043D496EE9CC4D681 /* Pods-XamarinUITestPocTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -434,6 +624,7 @@
 		};
 		EB966CE71E9CF040008F4F22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D47CEE7FC4E5D6C0999D7781 /* Pods-XamarinUITestPocTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +639,7 @@
 		};
 		EB966CE91E9CF040008F4F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9AD1CE721632835FBED099 /* Pods-XamarinUITestPocUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = XamarinUITestPocUITests/Info.plist;
@@ -461,6 +653,7 @@
 		};
 		EB966CEA1E9CF040008F4F22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C1FA8E95D525FFB2ED4550 /* Pods-XamarinUITestPocUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = XamarinUITestPocUITests/Info.plist;
