@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB966CBE1E9CF040008F4F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB966CBD1E9CF040008F4F22 /* AppDelegate.swift */; };
+		EB966CC01E9CF040008F4F22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB966CBF1E9CF040008F4F22 /* ViewController.swift */; };
+		EB966CC31E9CF040008F4F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB966CC11E9CF040008F4F22 /* Main.storyboard */; };
+		EB966CC51E9CF040008F4F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB966CC41E9CF040008F4F22 /* Assets.xcassets */; };
+		EB966CC81E9CF040008F4F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB966CC61E9CF040008F4F22 /* LaunchScreen.storyboard */; };
+		EB966CD31E9CF040008F4F22 /* XamarinUITestPocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB966CD21E9CF040008F4F22 /* XamarinUITestPocTests.swift */; };
+		EB966CDE1E9CF040008F4F22 /* XamarinUITestPocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB966CDD1E9CF040008F4F22 /* XamarinUITestPocUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB966CCF1E9CF040008F4F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB966CB21E9CF040008F4F22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB966CB91E9CF040008F4F22;
+			remoteInfo = XamarinUITestPoc;
+		};
+		EB966CDA1E9CF040008F4F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB966CB21E9CF040008F4F22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB966CB91E9CF040008F4F22;
+			remoteInfo = XamarinUITestPoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB966CBA1E9CF040008F4F22 /* XamarinUITestPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XamarinUITestPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB966CBD1E9CF040008F4F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB966CBF1E9CF040008F4F22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB966CC21E9CF040008F4F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB966CC41E9CF040008F4F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB966CC71E9CF040008F4F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB966CC91E9CF040008F4F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB966CCE1E9CF040008F4F22 /* XamarinUITestPocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XamarinUITestPocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB966CD21E9CF040008F4F22 /* XamarinUITestPocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XamarinUITestPocTests.swift; sourceTree = "<group>"; };
+		EB966CD41E9CF040008F4F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB966CD91E9CF040008F4F22 /* XamarinUITestPocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XamarinUITestPocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB966CDD1E9CF040008F4F22 /* XamarinUITestPocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XamarinUITestPocUITests.swift; sourceTree = "<group>"; };
+		EB966CDF1E9CF040008F4F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB966CB71E9CF040008F4F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB966CCB1E9CF040008F4F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB966CD61E9CF040008F4F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB966CB11E9CF040008F4F22 = {
+			isa = PBXGroup;
+			children = (
+				EB966CBC1E9CF040008F4F22 /* XamarinUITestPoc */,
+				EB966CD11E9CF040008F4F22 /* XamarinUITestPocTests */,
+				EB966CDC1E9CF040008F4F22 /* XamarinUITestPocUITests */,
+				EB966CBB1E9CF040008F4F22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB966CBB1E9CF040008F4F22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB966CBA1E9CF040008F4F22 /* XamarinUITestPoc.app */,
+				EB966CCE1E9CF040008F4F22 /* XamarinUITestPocTests.xctest */,
+				EB966CD91E9CF040008F4F22 /* XamarinUITestPocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB966CBC1E9CF040008F4F22 /* XamarinUITestPoc */ = {
+			isa = PBXGroup;
+			children = (
+				EB966CBD1E9CF040008F4F22 /* AppDelegate.swift */,
+				EB966CBF1E9CF040008F4F22 /* ViewController.swift */,
+				EB966CC11E9CF040008F4F22 /* Main.storyboard */,
+				EB966CC41E9CF040008F4F22 /* Assets.xcassets */,
+				EB966CC61E9CF040008F4F22 /* LaunchScreen.storyboard */,
+				EB966CC91E9CF040008F4F22 /* Info.plist */,
+			);
+			path = XamarinUITestPoc;
+			sourceTree = "<group>";
+		};
+		EB966CD11E9CF040008F4F22 /* XamarinUITestPocTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB966CD21E9CF040008F4F22 /* XamarinUITestPocTests.swift */,
+				EB966CD41E9CF040008F4F22 /* Info.plist */,
+			);
+			path = XamarinUITestPocTests;
+			sourceTree = "<group>";
+		};
+		EB966CDC1E9CF040008F4F22 /* XamarinUITestPocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB966CDD1E9CF040008F4F22 /* XamarinUITestPocUITests.swift */,
+				EB966CDF1E9CF040008F4F22 /* Info.plist */,
+			);
+			path = XamarinUITestPocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB966CB91E9CF040008F4F22 /* XamarinUITestPoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB966CE21E9CF040008F4F22 /* Build configuration list for PBXNativeTarget "XamarinUITestPoc" */;
+			buildPhases = (
+				EB966CB61E9CF040008F4F22 /* Sources */,
+				EB966CB71E9CF040008F4F22 /* Frameworks */,
+				EB966CB81E9CF040008F4F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XamarinUITestPoc;
+			productName = XamarinUITestPoc;
+			productReference = EB966CBA1E9CF040008F4F22 /* XamarinUITestPoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB966CCD1E9CF040008F4F22 /* XamarinUITestPocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB966CE51E9CF040008F4F22 /* Build configuration list for PBXNativeTarget "XamarinUITestPocTests" */;
+			buildPhases = (
+				EB966CCA1E9CF040008F4F22 /* Sources */,
+				EB966CCB1E9CF040008F4F22 /* Frameworks */,
+				EB966CCC1E9CF040008F4F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB966CD01E9CF040008F4F22 /* PBXTargetDependency */,
+			);
+			name = XamarinUITestPocTests;
+			productName = XamarinUITestPocTests;
+			productReference = EB966CCE1E9CF040008F4F22 /* XamarinUITestPocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB966CD81E9CF040008F4F22 /* XamarinUITestPocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB966CE81E9CF040008F4F22 /* Build configuration list for PBXNativeTarget "XamarinUITestPocUITests" */;
+			buildPhases = (
+				EB966CD51E9CF040008F4F22 /* Sources */,
+				EB966CD61E9CF040008F4F22 /* Frameworks */,
+				EB966CD71E9CF040008F4F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB966CDB1E9CF040008F4F22 /* PBXTargetDependency */,
+			);
+			name = XamarinUITestPocUITests;
+			productName = XamarinUITestPocUITests;
+			productReference = EB966CD91E9CF040008F4F22 /* XamarinUITestPocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB966CB21E9CF040008F4F22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = babzich;
+				TargetAttributes = {
+					EB966CB91E9CF040008F4F22 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EB966CCD1E9CF040008F4F22 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB966CB91E9CF040008F4F22;
+					};
+					EB966CD81E9CF040008F4F22 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB966CB91E9CF040008F4F22;
+					};
+				};
+			};
+			buildConfigurationList = EB966CB51E9CF040008F4F22 /* Build configuration list for PBXProject "XamarinUITestPoc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB966CB11E9CF040008F4F22;
+			productRefGroup = EB966CBB1E9CF040008F4F22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB966CB91E9CF040008F4F22 /* XamarinUITestPoc */,
+				EB966CCD1E9CF040008F4F22 /* XamarinUITestPocTests */,
+				EB966CD81E9CF040008F4F22 /* XamarinUITestPocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB966CB81E9CF040008F4F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB966CC81E9CF040008F4F22 /* LaunchScreen.storyboard in Resources */,
+				EB966CC51E9CF040008F4F22 /* Assets.xcassets in Resources */,
+				EB966CC31E9CF040008F4F22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB966CCC1E9CF040008F4F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB966CD71E9CF040008F4F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB966CB61E9CF040008F4F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB966CC01E9CF040008F4F22 /* ViewController.swift in Sources */,
+				EB966CBE1E9CF040008F4F22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB966CCA1E9CF040008F4F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB966CD31E9CF040008F4F22 /* XamarinUITestPocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB966CD51E9CF040008F4F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB966CDE1E9CF040008F4F22 /* XamarinUITestPocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB966CD01E9CF040008F4F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB966CB91E9CF040008F4F22 /* XamarinUITestPoc */;
+			targetProxy = EB966CCF1E9CF040008F4F22 /* PBXContainerItemProxy */;
+		};
+		EB966CDB1E9CF040008F4F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB966CB91E9CF040008F4F22 /* XamarinUITestPoc */;
+			targetProxy = EB966CDA1E9CF040008F4F22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB966CC11E9CF040008F4F22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB966CC21E9CF040008F4F22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB966CC61E9CF040008F4F22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB966CC71E9CF040008F4F22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB966CE01E9CF040008F4F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB966CE11E9CF040008F4F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB966CE31E9CF040008F4F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XamarinUITestPoc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babzich.XamarinUITestPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB966CE41E9CF040008F4F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XamarinUITestPoc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babzich.XamarinUITestPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EB966CE61E9CF040008F4F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XamarinUITestPocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babzich.XamarinUITestPocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XamarinUITestPoc.app/XamarinUITestPoc";
+			};
+			name = Debug;
+		};
+		EB966CE71E9CF040008F4F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XamarinUITestPocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babzich.XamarinUITestPocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XamarinUITestPoc.app/XamarinUITestPoc";
+			};
+			name = Release;
+		};
+		EB966CE91E9CF040008F4F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = XamarinUITestPocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babzich.XamarinUITestPocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = XamarinUITestPoc;
+			};
+			name = Debug;
+		};
+		EB966CEA1E9CF040008F4F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = XamarinUITestPocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babzich.XamarinUITestPocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = XamarinUITestPoc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB966CB51E9CF040008F4F22 /* Build configuration list for PBXProject "XamarinUITestPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB966CE01E9CF040008F4F22 /* Debug */,
+				EB966CE11E9CF040008F4F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB966CE21E9CF040008F4F22 /* Build configuration list for PBXNativeTarget "XamarinUITestPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB966CE31E9CF040008F4F22 /* Debug */,
+				EB966CE41E9CF040008F4F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB966CE51E9CF040008F4F22 /* Build configuration list for PBXNativeTarget "XamarinUITestPocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB966CE61E9CF040008F4F22 /* Debug */,
+				EB966CE71E9CF040008F4F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB966CE81E9CF040008F4F22 /* Build configuration list for PBXNativeTarget "XamarinUITestPocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB966CE91E9CF040008F4F22 /* Debug */,
+				EB966CEA1E9CF040008F4F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB966CB21E9CF040008F4F22 /* Project object */;
+}
